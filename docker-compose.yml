@@ -16,9 +16,9 @@ services:
       MEMORY: 4G
       CONSOLE: true
       OVERRIDE_ICON: true
-      OPS_FILE: https://raw.githubusercontent.com/Loony2392/gs_mc_homierepublic/main/server_configs/ops.json
-      ICON: https://raw.githubusercontent.com/Loony2392/gs_mc_homierepublic/main/server_configs/server-icon.png
-      ALLOW_NETHER: true
+      OPS_FILE: ""
+      ICON: ""
+      ALLOW_NETHER: false
       ANNOUNCE_PLAYER_ACHIEVEMENTS: true
       ENABLE_COMMAND_BLOCK: false
       FORCE_GAMEMODE: true
@@ -36,8 +36,8 @@ services:
       PVP:  false
       RESOURCE_PACK: ""
       LEVEL:  "lobby"
-      ONLINE_MODE: true
-      ALLOW_FLIGHT: true
+      ONLINE_MODE: false
+      ALLOW_FLIGHT: false
       PLAYER_IDLE_TIMEOUT: 5
       SYNC_CHUNK_WRITES: true
       NETWORK_COMPRESSION_THRESHOLD: 512
