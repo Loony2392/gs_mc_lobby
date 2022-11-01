@@ -50,5 +50,5 @@ services:
       - 8123:8123
       - 3306:3306
     volumes:
-      - /mnt/user/appdata/gs_mc_homierepublic:/data
+      - /mnt/user/appdata/gs_mc_lobby:/data
     restart: unless-stopped
