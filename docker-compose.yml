@@ -47,7 +47,6 @@ services:
       
     ports:
       - 25575:25565
-      - 3306:3306
     volumes:
       - /mnt/user/appdata/gs_mc_lobby:/data
 
