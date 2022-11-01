@@ -41,8 +41,8 @@ services:
       PLAYER_IDLE_TIMEOUT: 5
       SYNC_CHUNK_WRITES: true
       NETWORK_COMPRESSION_THRESHOLD: 512
-      ENFORCE_WHITELIST: true
-      ENABLE_WHITELIST: true
+      ENFORCE_WHITELIST: false
+      ENABLE_WHITELIST: false
       SIMULATION_DISTANCE:  20
       
     ports:
