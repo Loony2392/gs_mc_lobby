@@ -12,13 +12,14 @@ services:
       SERVER_NAME: "LOONY-ARCADE Lobby"
       TZ: "Europe/Berlin"
       SERVER_PORT: 25565
-      MAX_PLAYERS: 5
-      MEMORY: 4G
+      MAX_PLAYERS: 50
+      MEMORY: 2G
       CONSOLE: true
       OVERRIDE_ICON: true
       OPS_FILE: ""
       ICON: ""
       ALLOW_NETHER: false
+      ALLOW_END: false
       ANNOUNCE_PLAYER_ACHIEVEMENTS: true
       ENABLE_COMMAND_BLOCK: false
       FORCE_GAMEMODE: true
@@ -31,7 +32,7 @@ services:
       SPAWN_MONSTERS:  false
       SPAWN_NPCS: true
       SPAWN_PROTECTION: 9999
-      VIEW_DISTANCE:  10
+      VIEW_DISTANCE:  15
       MODE: survival
       PVP:  false
       RESOURCE_PACK: ""
@@ -50,4 +51,5 @@ services:
       - 3306:3306
     volumes:
       - /mnt/user/appdata/gs_mc_lobby:/data
+
     restart: unless-stopped
