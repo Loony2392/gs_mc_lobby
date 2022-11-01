@@ -19,7 +19,6 @@ services:
       OPS_FILE: ""
       ICON: ""
       ALLOW_NETHER: false
-      ALLOW_END: false
       ANNOUNCE_PLAYER_ACHIEVEMENTS: true
       ENABLE_COMMAND_BLOCK: false
       FORCE_GAMEMODE: true
