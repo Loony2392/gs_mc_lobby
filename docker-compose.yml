@@ -28,9 +28,9 @@ services:
       MAX_BUILD_HEIGHT: 256
       MAX_TICK_TIME:  60000
       SPAWN_ANIMALS: true
-      SPAWN_MONSTERS:  true
+      SPAWN_MONSTERS:  false
       SPAWN_NPCS: true
-      SPAWN_PROTECTION: 20
+      SPAWN_PROTECTION: 9999
       VIEW_DISTANCE:  10
       MODE: survival
       PVP:  false
