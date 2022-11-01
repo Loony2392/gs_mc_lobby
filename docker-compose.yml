@@ -1,11 +1,18 @@
-version: '3.7'
-
 services:
   mc:
     build: .
     environment:
-      EULA: "TRUE"
+      EULA: "true"
+      ENABLE_RCON: "true"
+      TYPE: PAPER
+      VIEW_DISTANCE: 10
+      MEMORY: 2G
+      CONSOLE: "false"
+
     ports:
-    - 25565:25565
+    - 25575:25565
     stdin_open: true
     tty: true
+
+    volume:
+      - /mnt/user/appdata/gs_mc_lobby:/data
