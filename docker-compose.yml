@@ -8,6 +8,7 @@ services:
       ENABLE_RCON: true
       TYPE: PAPER
       VERSION: 1.19.2
+      MOTD: "LOONY-ARCADE Lobby"
       SERVER_NAME: "LOONY-ARCADE Lobby"
       TZ: "Europe/Berlin"
       SERVER_PORT: 25565
