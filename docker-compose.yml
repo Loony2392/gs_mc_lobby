@@ -43,6 +43,8 @@ services:
       ENFORCE_WHITELIST: false
       ENABLE_WHITELIST: false
       SIMULATION_DISTANCE:  20
+      stdin_open: true
+      tty: true
       
     ports:
       - 25575:25565
