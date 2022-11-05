@@ -17,6 +17,7 @@ services:
       CONSOLE: true
       OVERRIDE_ICON: true
       ICON: ""
+      OPS_FILE: "https://raw.githubusercontent.com/Loony2392/gs_mc_proxy/main/server_configs/ops.json"
       ALLOW_NETHER: false
       ANNOUNCE_PLAYER_ACHIEVEMENTS: true
       ENABLE_COMMAND_BLOCK: false
