@@ -16,7 +16,6 @@ services:
       MEMORY: 2G
       CONSOLE: true
       OVERRIDE_ICON: true
-      OPS_FILE: ""
       ICON: ""
       ALLOW_NETHER: false
       ANNOUNCE_PLAYER_ACHIEVEMENTS: true
