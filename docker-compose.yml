@@ -3,6 +3,9 @@ services:
   mc:
     image: itzg/minecraft-server
     container_name: gs_mc_lobby
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
     environment:
       EULA: true
       ENABLE_RCON: true
@@ -51,9 +54,3 @@ services:
       - 25575:25565
     volumes:
       - /mnt/user/appdata/gs_mc_lobby:/data
-   networks:
-     default:
-       external:
-           name: gameserver
-
-    restart: unless-stopped
